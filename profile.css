@@ -1,0 +1,157 @@
+.container{
+  width: 100%;
+  height: 800px;
+  background-image: url(background-elegant-hd-2.jpg);
+  position: relative;
+}
+
+/*header*/
+.header {
+  background-color: white;
+  opacity: .9;
+position: relative;
+  width: 100%;
+  height: 55px;
+  text-align: center;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+.logo {
+  width: 230px;
+    height: 45px;
+   margin: 5px;
+   margin-left: 20px;
+    float: left;
+}
+/*profile*/
+.profile {
+  margin: 5px;
+  margin-right: 10px;
+  width: 45px;
+  height: 45px;
+  float: right;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    opacity: .8;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    opacity: .5;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.avatar {
+  width: 100%;
+  height: 100px;
+  margin: 20px;
+}
+.avatar p{
+  float: left;
+  width: 100px;
+  margin: auto;
+}
+.avatar a {
+  float: right;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  text-align: left;
+  color: black;
+  cursor: pointer;
+}
+.avatar a:hover{
+  color: red;
+}
+.diri {
+  position: absolute;
+  right: 0;
+  text-align: left;
+  font-size: 15px;
+  margin:5px;
+  margin-top: 30px;
+}
+.icon {
+  width: 25px;
+  height: 25px;
+}
+/*profile*/
+.barang {
+  width: 75%;
+  height: 500px;
+  margin-top: 30px;
+  margin-left: 12%;
+  margin-bottom: 20px;
+  position: relative;
+}
+.image {
+  border: 1px solid black;
+  border-radius: 40px;
+  display: block;
+  background-color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 35%;
+    height: 500px;
+}
+.deskripsi {
+  border-radius: 10px;
+  background-color: white;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100%;
+}
+.deskripsi p {
+  margin: 10px;
+  text-align: left;
+  font-size: 30px;
+  color: black;
+  float: left;
+  font-weight: bold;
+}
+.deskripsi a{
+  margin: 10px;
+  text-align: left;
+  font-size: 30px;
+  color: black;
+  float: right;
+  width: 400px;
+}

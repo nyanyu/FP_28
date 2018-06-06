@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="transaksi.css">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+      	<a href="index.html">
+          <img src="logo thumbas.png" class="logo">
+        </a>
+        <img src="avatar.png" onclick="openNav()" class="profile" style="cursor: pointer;">
+    </div>
+	<div id="mySidenav" class="sidenav">
+  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  		<div class="avatar" >
+  			<p> <img src="avatar.png" width="120" height="120"></p>
+  			<div class="diri">
+  				<p>Nama: Abimanyu</p>
+  				<br>
+  				<p>Saldo: Rp.0</p>
+  			</div>
+  		 <a href="profile.html"> Profil Lengkap </a>
+  		</div>
+  		<a href="transaksi.html">
+  			<img src="logo dolar.png" class="icon">
+  			Pembayaran
+  		</a>
+ 		<a href="inbox.html">
+  			<img src="logo inbox.png" class="icon">
+  			Inbox
+  		</a>
+  		<a href="cs.html">
+  			<img src="logo customer service.png" class="icon">
+  			Customer Service
+  		</a>
+  		<a href="toko.html">
+  			<img src="logo toko.png" class="icon">
+  			Toko
+  		</a>
+  		<a href="index.html">
+  			<img src="logo keluar.png" class="icon">
+  			Keluar
+  		</a>
+  		<script type="text/javascript" src="home.js"></script>
+	</div>
+	<p style="color: white;font-size: 25px;margin: 20px"> Nama Produk: Hendphone Samsul</p>
+	<div class="data">
+		<div class="Jumlah">
+			<script type="text/javascript" src="angular.min.js"></script>
+			<body ng-app="">
+				<p style="color: white; font-size: 20px;padding-left: 20px;">Jumlah Barang</p>
+				<form name="myForm">
+					<input type="number" name="Jumlah" ng-model="myInput" style="margin-left: 20px;height: 30px;width: 200px">
+				</form>
+			</body>
+		</div>
+		<div class="harga">
+			<body ng-app="">
+				<p style="color: white; font-size: 20px;padding-left: 20px;">Harga</p>
+				<form name="myForm">
+					<input type="text" name="harga" placeholder="Rp." ng-model="myInput1" style="margin-left: 20px;height: 30px;width: 200px">
+				</form>
+			</body>
+		</div>
+		<br>
+		<br>
+		<div class="alamat">
+			<body ng-app="">
+				<p style="color: white; font-size: 20px;padding-left: 20px;">Alamat Tujuan</p>
+				<form name="myForm">
+					<textarea>
+					</textarea>
+				</form>
+			</body>
+		</div>
+	</div>
+	<div class="via">
+		<div class="vallen">
+			<p style="color: black;font-size: 20px;margin-left:20px;margin-bottom:5px;font-weight: bold;padding-top: 10px"> Pembayaran Via</p>
+			<br>
+			<img src="logo alfamart.png" height ="100" width="250" style="margin-top: 12px;margin-left: 20px;margin-bottom: 12px">
+			<img src="logo atm bersama.png" height ="100" width="250" style="margin-top: 12px;margin-left: 20px;margin-bottom: 12px">
+			<img src="logo indomaret.png" height= "150" width="250" style="margin-top: 12px;margin-left: 20px;margin-bottom: 12px">
+			<img src="logo master card.png" height="150" width="250" style="margin-top: 12px;margin-left: 20px;margin-bottom: 12px">
+		</div>
+	</div>
+	<div class="bayar">
+		<div class="a">
+			<p style="color: white; font-size: 20px;padding-left: 20px;">Pilihan Pembayaran</p>
+			<select id="country" name="country">
+      			<option value="alfamart">Alfamart</option>
+      			<option value="indomart">Indomart</option>
+      			<option value="Kredit">Kartu Kredit</option>
+      			<option value="ATM">Transfer Antar Bank</option>
+    		</select>
+		</div>
+		<div class="a">
+			<script type="text/javascript" src="angular.min.js"></script>
+			<body ng-app="">
+				<p style="color: white; font-size: 20px;padding-left: 20px;">Kurir</p>
+				<form name="myForm">
+					<input type="text" name="Kurir" ng-model="e" style="margin-left: 20px;height: 30px;width: 200px">
+				</form>
+			</body>
+		</div>
+		<div class="a">
+			<script type="text/javascript" src="angular.min.js"></script>
+			<body ng-app="">
+				<p style="color: white; font-size: 20px;padding-left: 20px;">Ongkos Kirim</p>
+				<form name="myForm">
+					<input type="text" name="ongkir" ng-model="w" style="margin-left: 20px;height: 30px;width: 200px">
+				</form>
+			</body>
+		</div>
+		<div class="a">
+			<script type="text/javascript" src="angular.min.js"></script>
+			<body ng-app="">
+				<p style="color: white; font-size: 20px;padding-left: 20px;">Total Pembayaran</p>
+				<form name="myForm">
+					<input type="text" name="Total" ng-model="q" style="margin-left: 20px;height: 30px;width: 200px">
+				</form>
+			</body>
+		</div>
+		<a href="rating.html">Bayar</a>
+	</div>
+</div>
+</body>
+</html>

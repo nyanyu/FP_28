@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>INBOX</title>
+	<link rel="stylesheet" type="text/css" href="inbox.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+    	inbox
+      	<a href="index.html">
+          <img src="logo thumbas.png" class="logo">
+        </a>
+        <img src="avatar.png" onclick="openNav()" class="profile" style="cursor: pointer;">
+    </div>
+	<div id="mySidenav" class="sidenav">
+  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  		<div class="avatar" >
+  			<p> <img src="avatar.png" width="120" height="120"></p>
+  			<div class="diri">
+  				<p>Nama: Abimanyu</p>
+  				<br>
+  				<p>Saldo: Rp.0</p>
+  			</div>
+  		 <a href="profile.html"> Profil Lengkap </a>
+  		</div>
+  		<a href="transaksi.html">
+  			<img src="logo dolar.png" class="icon">
+  			Pembayaran
+  		</a>
+ 		<a href="inbox.html">
+  			<img src="logo inbox.png" class="icon">
+  			Inbox
+  		</a>
+  		<a href="cs.html">
+  			<img src="logo customer service.png" class="icon">
+  			Customer Service
+  		</a>
+  		<a href="toko.html">
+  			<img src="logo toko.png" class="icon">
+  			Toko
+  		</a>
+  		<a href="index.html">
+  			<img src="logo keluar.png" class="icon">
+  			Keluar
+  		</a>
+  		<script type="text/javascript" src="home.js"></script>
+	</div>
+	<div class="inbox">
+		<div class="topnav">
+			<div class="search-container">
+            	<form action="/action_page.php">
+                	<input type="text" placeholder="Search.." name="search" style="margin: 5px">
+                	<button type="submit"><i class="fa fa-search" style="margin: auto;float: right;"></i></button>
+            	</form>
+       		</div>
+       	</div>
+
+       	<br>
+		<button class="tablinks" onclick="openCity(event, 'abi')">abi</button>
+  		<button class="tablinks" onclick="openCity(event, 'adi')">adi</button>
+  		<button class="tablinks" onclick="openCity(event, 'ari')">ari</button>
+	</div>
+	
+	<div class="chat">
+		<div class="thumbas">
+			<img src="logo dalam inbox.png" width="100%" height="430">
+		</div>
+
+		<script type="text/javascript" src="home.js"></script>
+		<div id="abi" class="tabcontent">
+			<img src="chat inbox 2.png" class="gelembung2">
+			<img src="chat inbox.png" class="gelembung">
+			<img src="chat inbox 2.png" class="gelembung3">
+			<div class="a">
+				<script type="text/javascript" src="angular.min.js"></script>
+				<body ng-app="">
+						<input type="form" name="form" ng-model="q" style="margin-left: 35px;height: 30px;width: 550px;" placeholder="enter your message...">
+				</body>
+			</div>
+		</div>
+		<div id="adi" class="tabcontent">
+			<img src="chat inbox 2.png" class="gelembung2">
+			<img src="chat inbox.png" class="gelembung">
+			<img src="chat inbox 2.png" class="gelembung3">
+			<div class="a">
+				<script type="text/javascript" src="angular.min.js"></script>
+				<body ng-app="">
+						<input type="form" name="form" ng-model="w" style="margin-left: 35px;height: 30px;width: 550px;" placeholder="enter your message...">
+				</body>
+			</div>
+		</div>
+		<div id="ari" class="tabcontent">
+			<img src="chat inbox 2.png" class="gelembung2">
+			<img src="chat inbox.png" class="gelembung">
+			<img src="chat inbox 2.png" class="gelembung3">
+  			<div class="a">
+				<script type="text/javascript" src="angular.min.js"></script>
+				<body ng-app="">
+						<input type="form" name="form" ng-model="e" style="margin-left: 35px;height: 30px;width: 550px;" placeholder="enter your message...">
+				</body>
+			</div>
+		</div>
+	</div>
+	
+</div>
+</body>
+</html>

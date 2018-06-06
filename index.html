@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thumbas</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+      	<img src="logo thumbas.png" class="logo">
+      	<div class="topnav">
+      		<div class= "flip">
+      			<span style="font-size:25px;cursor:pointer;margin: 5px;">&#9776;</span>
+      		</div>
+  			<div class="panel">
+  				<a href="#">baju</a>
+    			<a href="#">mainan</a>
+    			<a href="#">barang elektronik</a>
+  			</div>
+        	<div class="search-container">
+            	<form action="/action_page.php">
+                	<input type="text" placeholder="Search.." name="search" style="margin: 5px">
+                	<button type="submit"><i class="fa fa-search"></i></button>
+            	</form>
+       		</div>
+      	</div>
+      	<a href="login.html" class="login">Masuk</a>
+      	<a href="#" class="signup">Daftar</a>
+      	
+    </div>
+    <div class="slideshow-container">
+    <a href="promo.html">
+    	<div class="mySlides fade">
+  				<img src="promo1.jpg" style="width:1000px;height: 300px" >
+		</div>
+		<div class="mySlides fade">
+  			<img src="promo2.png" style="width:1000px;height: 300px">
+		</div>
+		<div class="mySlides fade">
+			<img src="promo3.jpg" style="width:1000px;height: 300px">
+		</div>
+	</a>
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+	</div>
+	<br>
+	<div style="text-align:center">
+		<span class="dot" onclick="currentSlide(1)"></span> 
+  		<span class="dot" onclick="currentSlide(2)"></span> 
+  		<span class="dot" onclick="currentSlide(3)"></span> 
+	</div>
+	<script type="text/javascript" src="home.js"></script>
+	<div class="list">
+		<div class="barang">
+			<a target="_blank" href="barang.html">
+				<img src="handphone.jpg" style="width: 100%;height: auto;">
+			</a>
+			<div class="harga">
+				handphone terbaru dari samsul
+				<p style="color: red" ng-model="myInput1">Rp.5.291.132</p>
+			</div>
+		</div>
+		<div class="barang">
+			<a target="_blank" href="barang.html">
+				<img src="handphone.jpg" style="width: 100%;height: auto;">
+			</a>
+			<div class="harga">
+				handphone terbaru dari samsul
+				<p style="color: red">Rp.5.291.132</p>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

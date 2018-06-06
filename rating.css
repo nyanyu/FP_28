@@ -1,0 +1,184 @@
+.container{
+  width: 100%;
+  height: 740px;
+  background-image: url(background-elegant-hd-2.jpg);
+}
+
+/*header*/
+.header {
+  background-color: white;
+  opacity: .9;
+position: relative;
+  width: 100%;
+  height: 55px;
+}
+.logo {
+  width: 230px;
+    height: 45px;
+   margin: 5px;
+   margin-left: 20px;
+    float: left;
+}
+/*profile*/
+.profile {
+  margin: 5px;
+  margin-right: 10px;
+  width: 45px;
+  height: 45px;
+  float: right;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    opacity: .8;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    opacity: .5;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.avatar {
+  width: 100%;
+  height: 100px;
+  margin: 20px;
+}
+.avatar p{
+  float: left;
+  width: 100px;
+  margin: auto;
+}
+.avatar a {
+  float: right;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  text-align: left;
+  color: black;
+  cursor: pointer;
+}
+.avatar a:hover{
+  color: red;
+}
+.diri {
+  position: absolute;
+  right: 0;
+  text-align: left;
+  font-size: 15px;
+  margin:5px;
+  margin-top: 30px;
+}
+.icon {
+  width: 25px;
+  height: 25px;
+}
+/*bawah*/
+.rating {
+  width: 70%;
+  height: 300px;
+  margin: auto;
+  margin-top: 20px;
+}
+.barang {
+  float: left;
+  width: 45%;
+  height: 280px;
+  margin: 10px;
+  position: relative;
+}
+.barang1 {
+  float: right;
+  width: 45%;
+  height: 280px;
+  margin: 10px;
+  position: relative;
+}
+.toko {
+  width: 100%;
+  height: 280px;
+}
+.w {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  margin-left: 30px;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+.barang a, .barang1 a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  background-color: #33CC33;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.ulasan{
+  width: 70%;
+  height: 150px;
+  margin: auto;
+  margin-top: 20px;
+}
+.q {
+  float: left;
+  width: 45%;
+  height: 130px;
+  margin-left: 10px;
+}
+.e {
+  float: left;
+  width: 40%;
+  height: 130px;
+  margin-left: 90px;
+}
+textarea {
+    width: 60%;
+    height: 130px;
+    margin-left: auto;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    text-align: left;
+}
